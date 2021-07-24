@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Bowtied Chukar`,
     author: {
-      name: `bowtiedchukar`,
-      summary: `who programs for fun, believes in Bitcon, and is learning online selling`,
+      name: `BowTied Chukar`,
+      summary: ` We write about web development, Bitcoin, privacy, and our journey learning how to sell online.`,
     },
-    description: `a collection of notes and learning from bowtiedchukar`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Web Development | #Bitcoin | Privacy`,
+    siteUrl: `https://bowtiedchukar.com`,
     social: {
       twitter: `bowtiedchukar`,
     },
@@ -112,13 +112,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `BowTied Chukar`,
+        short_name: `BowTied Chukar`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/bowtiedchukar.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
