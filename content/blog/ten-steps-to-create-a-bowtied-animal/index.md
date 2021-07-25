@@ -1,7 +1,7 @@
 ---
 title: 10 Steps to Create a BowTied Animal
 date: "2021-07-24T22:12:03.284Z"
-description: "10 steps to create a BowTied animal with a focus on privacy and security."
+description: "The BowTied Chukar is joining the jungle.  This first post covers the 10 steps we took to create BowTied Chukar including privacy and security considerations."
 ---
 **Welcome avatar!**. The BowTied Chukar is joining the jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  This first post covers the 10 steps we took to create BowTied Chukar including privacy and security considerations.
 
