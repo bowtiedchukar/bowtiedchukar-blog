@@ -54,6 +54,8 @@ Change the default SSH filename to:
 /Users/you/.ssh/id_ed25519_bowtiedanimal
 ```
 
+You will also need to update your `.ssh/config` and update the hostname when cloning following the instructions [here](https://stackoverflow.com/a/38454037).
+
 Set up two-factor authentication (2FA) with Authy, GitHub instructions [here](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
 ### 7. Update local git config
