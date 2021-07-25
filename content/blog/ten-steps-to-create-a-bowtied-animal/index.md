@@ -1,9 +1,9 @@
 ---
-title: 10 Steps to Becoming a BowTied Animal
+title: 10 Steps to Create a BowTied Animal
 date: "2021-07-24T22:12:03.284Z"
-description: "The 10 steps we took to create BowTied Chukar with a focus on privacy and security."
+description: "10 steps to create a BowTied animal with a focus on privacy and security."
 ---
-**Welcome avatar!**. The BowTied Chukar is joining the jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  This first post covers the 10 steps we took to create BowTied Chukar with a focus on privacy and security.
+**Welcome avatar!**. The BowTied Chukar is joining the jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  This first post covers the 10 steps we took to create BowTied Chukar including privacy and security considerations.
 
 ### 1. Check Twitter availability
 
@@ -27,7 +27,7 @@ Set up two-factor authentication (2FA) with Authy, Twitter instructions [here](h
 
 ### 4. Create BowTied avatar
 
-We used [PIXL R](https://pixlr.com/x/), a free online photo editor, to put a bow tie on my chukar.  Add your avatar to your Twitter account.
+We used [PIXL R](https://pixlr.com/x/), a free online photo editor, to put a bow tie on our chukar.  Add your avatar to your Twitter account.
 
 ### 5. Buy your BowTied domain
 
@@ -39,7 +39,7 @@ You can purchase your domain with Bitcoin.  I like using [Strike](https://strike
 
 Set up two-factor authentication (2FA) with Authy, Namecheap instructions [here](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication/).
 
-*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/) provide a more simple solution. If you choose to set up your blog with either of these options, you can skip down to writing your first blog post in step 10.]*
+*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/) provide a more simple solution. If you choose to set up your blog with either of these options, you can skip down to writing your first blog post in step 10.]*
 
 ### 6. Create BowTied Github account
 
@@ -54,6 +54,7 @@ Change the default SSH filename to:
 /Users/you/.ssh/id_ed25519_bowtiedanimal
 ```
 
+Set up two-factor authentication (2FA) with Authy, GitHub instructions [here](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
 ### 7. Update local git config
 
@@ -95,7 +96,7 @@ An advantage of using a more established static site generator is there are plen
 
 Use the [Step By Step Guide to Deploy Gatsby on Netlify](https://www.netlify.com/blog/2016/02/24/a-step-by-step-guide-gatsby-on-netlify/) to create your Gatsby project and deploy it to Netlify with one exception we cover below.
 
-Gatsby provides a tone of different [templates](https://www.gatsbyjs.com/starters/?) for your site.  By default `gatsby new` uses the [Gatsby Default Starter](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-default/) template.
+Gatsby provides a bunch of different [templates](https://www.gatsbyjs.com/starters/?) for your site.  By default `gatsby new` uses the [Gatsby Default Starter](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-default/) template.
 
 If you want to choose a different template (e.g. [Gatsby Starter Blog](https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-blog/)) change the following:
 
@@ -117,11 +118,13 @@ You now have your blog deployed to your custom BowTied animal domain.
 
 ### 10. Update Gatsby template with your info
 
-We deployed our blog with the default information and now it is time to update the site with our information and our first blog post.  You want to update the following files with your information.
+You have deployed your blog with the default information and now it is time to update the site with your information and your first blog post.
+
+You want to update the following files with your information:
 
 * `gatsby-config.js`: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description.  Make sure to update the `gatsby-plugin-manifest` with your BowTied animal icon, see [Add a Custom Icon to your Gatsby Site in Minutes](https://medium.com/@itguymax/add-a-custom-icon-to-your-gatsby-site-in-just-a-few-a-minute-4e5b5f12ca40).
 * `src/images/profile-pic.png`:  Replace this file with your avatar.
-* `src/components/bio.js`: The info in this file is used in your main site page header and in the footer of each blog post.
+* `src/components/bio.js`: The info in this file is used in your main site page header and in the footer of each blog post. Some info is pulled from `gatsby-config.js`.
 * `content/blog`: Use the three sample posts to understand how to format your blog posts.  Then delete them and add your first post.
 
-Congratulations, you've created your own BowTied animal!  Now you're all set to join the Jungle!  WAGMI!
+Congratulations, you've created your own BowTied animal!  Now you're all set to join the Jungle!  #WAGMI
