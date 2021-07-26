@@ -35,7 +35,7 @@ Go to [Namecheap](https://namecheap.com) and buy `yourbowtiedanimal.com`.  It's 
 
 Namecheap is not going to verify your name, address, and phone number so it is up to you to decide the accuracy of that information.  Use your MySudo VOIP number if you have one.
 
-You can purchase your domain with Bitcoin.  We like using [Strike](https://strike.me/) to pay Bitcoin and Lightning invoices.  It comes out of my US Token account and I don't have to touch my Bitcoin cold storage.
+You can purchase your domain with Bitcoin.  We like using [Strike](https://strike.me/) to pay Bitcoin and Lightning invoices.  It comes out of our US Token account and I don't have to touch my Bitcoin cold storage.
 
 Set up two-factor authentication (2FA) with Authy, Namecheap instructions [here](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication/).
 
@@ -122,5 +122,6 @@ You want to update the following files with your information:
 * `src/images/profile-pic.png`:  Replace this file with your avatar.
 * `src/components/bio.js`: The info in this file is used in your main site page header and in the footer of each blog post. Some info is pulled from `gatsby-config.js`.
 * `content/blog`: Use the three sample posts to understand how to format your blog posts.  Then delete them and add your first post.
+* Follow the [How To Boost SEO Using Gatsby's SEO Component and Gatsby React Helmet](https://www.digitalocean.com/community/tutorials/how-to-boost-seo-using-gatsby-s-seo-component-and-gatsby-react-helmet) tutoral to update site metadata not included in the template project.
 
 Congratulations, you've created your own BowTied animal!  Now you're all set to join the Jungle!  #WAGMI
