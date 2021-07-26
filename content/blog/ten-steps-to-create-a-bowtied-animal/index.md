@@ -1,9 +1,9 @@
 ---
 title: 10 Steps to Create a BowTied Animal
 date: "2021-07-24T22:12:03.284Z"
-description: "The BowTied Chukar is joining the jungle!  This first post covers the 10 steps we took to create BowTied Chukar including privacy and security considerations."
+description: "The BowTied Chukar is joining the jungle!  Here are the 10 steps we took to create BowTied Chukar with strong privacy and security options."
 ---
-**Welcome avatar!**. The BowTied Chukar is joining the jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  This first post covers the 10 steps we took to create BowTied Chukar including privacy and security considerations.
+**Welcome avatar!**. The BowTied Chukar is joining the jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  Here are the 10 steps we took to create BowTied Chukar with strong privacy and security options.
 
 ### 1. Check Twitter availability
 
@@ -35,26 +35,20 @@ Go to [Namecheap](https://namecheap.com) and buy `yourbowtiedanimal.com`.  It's 
 
 Namecheap is not going to verify your name, address, and phone number so it is up to you to decide the accuracy of that information.  Use your MySudo VOIP number if you have one.
 
-You can purchase your domain with Bitcoin.  I like using [Strike](https://strike.me/) to pay Bitcoin and Lightning invoices.  It comes out of my US Token account and I don't have to touch my Bitcoin cold storage.
+You can purchase your domain with Bitcoin.  We like using [Strike](https://strike.me/) to pay Bitcoin and Lightning invoices.  It comes out of my US Token account and I don't have to touch my Bitcoin cold storage.
 
 Set up two-factor authentication (2FA) with Authy, Namecheap instructions [here](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication/).
 
-*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/) provide a more simple solution. If you choose to set up your blog with either of these options, you can skip down to writing your first blog post in step 10.]*
+*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   For a more simple solution, use [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/). If you choose these options, you can skip down to writing your first blog post in step 10.]*
 
 ### 6. Create BowTied Github account
 
 Sign up for a [GitHub](https://github.com/) account using your ProtonMail email address.
 
-You want to [set up SSH for authentication](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) using your BowTied animal ProtonMail email address
+We ran into an unexpected issue when we [set up SSH for authentication](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) on our new account.  If you already use SSH for another GitHub account, you will get an [error that your SSH key is already in use](https://docs.github.com/en/github/authenticating-to-github/troubleshooting-ssh/error-key-already-in-use).
 
-If you already use SSH for your regular GitHub account, you will get an [error that your SSH key is already in use](https://docs.github.com/en/github/authenticating-to-github/troubleshooting-ssh/error-key-already-in-use).  You want to create new SSH files associated with your BowTied animal and you don't want to overwrite your current SSH files.
-
-Change the default SSH filename to:
-```
-/Users/you/.ssh/id_ed25519_bowtiedanimal
-```
-
-You will also need to update your `.ssh/config` and update the hostname when cloning following the instructions [here](https://stackoverflow.com/a/38454037) and [here](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab).
+You want to create new SSH identity associated with your BowTied email address.
+Follow [these instructions](https://coderwall.com/p/7smjkq/multiple-ssh-keys-for-different-accounts-on-github-or-gitlab) to create a new SSH identity and update your `.ssh/config`.  Then update the hostname when creating or cloning your repo following the instructions [here](https://stackoverflow.com/a/38454037).
 
 Set up two-factor authentication (2FA) with Authy, GitHub instructions [here](https://docs.github.com/en/github/authenticating-to-github/securing-your-account-with-two-factor-authentication-2fa).
 
@@ -90,7 +84,7 @@ Reference:  [Can I specify multiple users for myself in gitconfig?](https://stac
 
 We used [Gatsby](https://www.gatsbyjs.com/)  because we're familiar with JavaScript.  [Hugo](https://gohugo.io/) and [Jekyll](https://jekyllrb.com/) are options if you are more comfortable with Go or Ruby.
 
-We want to have full control over our site, but we also don't want to spend 2 months building and styling the blog from scratch.
+We want to have full control over our site, but we also don't want to spend a lot of time building and styling the blog from scratch.
 
 We're going to use the [gatsby starter blog](https://github.com/gatsbyjs/gatsby-starter-blog.git) with all of the default styles and site organization.
 
@@ -116,11 +110,11 @@ Now your site should be deployed to a Netlify address (e.g. https://a-bunch-of-w
 
 Use the [Setting Up Domain with Namecheap & Netlify](https://dev.to/easybuoy/setting-up-domain-with-namecheap-netlify-1a4d) guide to connect your custom BowTied animal domain and your blog on Netlify.  It may take some time to update your DNS and provision your SSL certificate.
 
-You now have your blog deployed to your custom BowTied animal domain.
+Your blog is now up on your BowTied animal custom domain.
 
 ### 10. Update Gatsby template with your info
 
-You have deployed your blog with the default information and now it is time to update the site with your information and your first blog post.
+You have deployed your blog with the default sample content and now it is time to update the site with your information and your first blog post.
 
 You want to update the following files with your information:
 
