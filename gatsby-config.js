@@ -6,7 +6,9 @@ module.exports = {
       summary: ` We write about web development, Bitcoin, privacy, and our journey learning how to sell online.`,
     },
     description: `Web Development | #Bitcoin | Privacy`,
+    keywords: `bitcoin, bowtiedbull, bowtiedjungle, programming, privacy, security`,
     siteUrl: `https://bowtiedchukar.com`,
+    image: `src/images/bowtiedchukar.png`, // This path is relative to the root of the site.
     social: {
       twitter: `bowtiedchukar`,
     },
