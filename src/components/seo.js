@@ -9,6 +9,7 @@ import * as React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { useLocation } from "@reach/router"
 
 const Seo = ({ description, lang, meta, title, image }) => {
   const { site } = useStaticQuery(
@@ -18,7 +19,7 @@ const Seo = ({ description, lang, meta, title, image }) => {
           siteMetadata {
             title
             description
-            image
+            defaultImage: image
             siteUrl
             keywords
             social {
@@ -33,7 +34,7 @@ const Seo = ({ description, lang, meta, title, image }) => {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const keywords = site.siteMetadata.keywords
-  const image = site.siteMetadata.image
+  const defaultImage = site.siteMetadata.defaultImage
   const siteUrl = site.siteMetadata.siteUrl
   const { pathname } = useLocation()
 
@@ -68,6 +69,10 @@ const Seo = ({ description, lang, meta, title, image }) => {
         {
           property: `og:image`,
           content: `${siteUrl}${image || defaultImage}`,
+        },
+        {
+          property: `og:url`,
+          content: `${siteUrl}${pathname}`,
         },
         {
           name: `twitter:card`,
