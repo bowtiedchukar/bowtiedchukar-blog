@@ -123,8 +123,8 @@ You want to update the following files with your information:
 * `src/components/bio.js`: The info in this file is used in your main site page header and in the footer of each blog post. Some info is pulled from `gatsby-config.js`.
 * `content/blog`: Use the three sample posts to understand how to format your blog posts.  Then delete them and add your first post.
 * Follow the [How To Boost SEO Using Gatsby's SEO Component and Gatsby React Helmet](https://www.digitalocean.com/community/tutorials/how-to-boost-seo-using-gatsby-s-seo-component-and-gatsby-react-helmet) tutoral to update site metadata not included in the template project.
-* I ran into issues with my twitter and og:image.  If run into issues with your tweets not including a picture with the preview. See the [Adding an SEO Component Guide](https://www.gatsbyjs.com/docs/add-seo-component/) or DM me and i'll help you out.
+* We ran into issues with our twitter:image and og:image not working properly.  If you run into issues with your tweets not including a picture with the preview, see the [Adding an SEO Component Guide](https://www.gatsbyjs.com/docs/add-seo-component/) or DM us and we'll help you out.
 
-The BowTied Chukar blog is on [GitHub](https://github.com/bowtiedchukar/bowtiedchukar-blog) if want to see the code for this site.
+The BowTied Chukar blog is on [GitHub](https://github.com/bowtiedchukar/bowtiedchukar-blog) if you want to see the code for this site.
 
 Congratulations, you've created your own BowTied animal!  Now you're all set to join the Jungle!  #WAGMI
