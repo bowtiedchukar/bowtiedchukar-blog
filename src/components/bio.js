@@ -8,6 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import BTCPayButton from "../components/BTCPayButton"
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -43,13 +44,18 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          Written by <strong>{author.name}.</strong> {author?.summary || null}
-          {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            Follow us on Twitter.
-          </a>
-        </p>
+        <div>
+          <p>
+            Written by <strong>{author.name}.</strong> {author?.summary || null}
+            {` `}
+            <a href={`https://twitter.com/${social?.twitter || ``}`}>
+              Follow us on Twitter
+            </a>
+            {` `}
+            and consider leaving <strong>{author.name}</strong> a tip:
+            <BTCPayButton />
+          </p>
+        </div>
       )}
     </div>
   )

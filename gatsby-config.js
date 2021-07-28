@@ -3,10 +3,10 @@ module.exports = {
     title: `Bowtied Chukar`,
     author: {
       name: `BowTied Chukar`,
-      summary: ` We write about web development, Bitcoin, privacy, and our journey learning how to sell online.`,
+      summary: ` We write about Bitcoin, privacy, programming, and our journey learning how to sell online.`,
     },
-    description: `Web Development | #Bitcoin | Privacy`,
-    keywords: `bitcoin, bowtiedbull, bowtiedjungle, programming, privacy, security`,
+    description: `#Bitcoin | Privacy | Web Development`,
+    keywords: `bitcoin, btcpaysever, bowtiedbull, bowtiedjungle, programming, privacy, security`,
     siteUrl: `https://bowtiedchukar.com`,
     image: `/images/bowtiedchukar.png`, // This path is relative to the root of the site.
     social: {
