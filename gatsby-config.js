@@ -6,7 +6,7 @@ module.exports = {
       summary: ` We write about Bitcoin, privacy, programming, and our journey learning how to sell online.`,
     },
     description: `#Bitcoin | Privacy | Web Development`,
-    keywords: `bitcoin, btcpaysever, bowtiedbull, bowtiedjungle, programming, privacy, security`,
+    keywords: `bitcoin, btcpay server, bowtiedbull, bowtiedjungle, programming, privacy, security`,
     siteUrl: `https://bowtiedchukar.com`,
     image: `/images/bowtiedchukar.png`, // This path is relative to the root of the site.
     social: {
