@@ -8,7 +8,7 @@
 import * as React from "react"
 import * as containerStyles from "./BTCPayButton.module.css"
 
-const BTCPayButton = () => {
+const BTCPayButton = ({ pageUrl }) => {
   return (
     <div className={containerStyles}>
       <form
@@ -23,6 +23,7 @@ const BTCPayButton = () => {
         />
         <input type="hidden" name="price" defaultValue={10} />
         <input type="hidden" name="currency" defaultValue="USD" />
+        <input type="hidden" name="browserRedirect" value={pageUrl} />
         <button
           type="submit"
           className="submit"
@@ -33,12 +34,14 @@ const BTCPayButton = () => {
             borderRadius: "4px",
             borderStyle: "none",
             backgroundColor: "#0f3b21",
+            cursor: "pointer",
           }}
           alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"
         >
-          <span style={{ color: "#fff" }}>Tip with</span>
+          <span style={{ color: "#fff" }}>Tip $10 with</span>
           <img
             src="https://btcpay329620.lndyn.com/img/logo.svg"
+            alt="BtcPay Button"
             style={{
               height: "40px",
               display: "inline-block",
