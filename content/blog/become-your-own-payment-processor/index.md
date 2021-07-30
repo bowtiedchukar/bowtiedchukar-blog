@@ -4,7 +4,11 @@ date: "2021-07-29T22:12:03.284Z"
 description: "Everyone knows #BanksAreZeros, but Visa, Mastercard, and Discover are also on the way to Zero.  We're going to make this obvious by showing the Jungle how to become your own Bitcoin payment processor with 30 mins of effort."
 ---
 
-**Welcome avatar!**. Everyone knows #BanksAreZeros, but Visa, Mastercard, and Discover are also on the way to Zero.  We're going to make this obvious by showing you how to become your own Bitcoin payment processor with 30 mins of effort.
+**Welcome avatar!**. Everyone knows #BanksAreZeros, but Visa, Mastercard, and Discover are also on the way to Zero.  We're going to make this obvious by showing you how to become your own Bitcoin payment processor and create a BTCPay Button for your blog with 30 mins of effort.
+
+Then you can set up a [Point of Sale](https://docs.btcpayserver.org/Apps/#point-of-sale-app), [Crowdfunding](https://docs.btcpayserver.org/Apps/#crowdfunding-app), or [Lightning](https://docs.btcpayserver.org/Apps/#lightning-network-apps-lapps) app. Or [Woo Commerce](https://docs.btcpayserver.org/WooCommerce/) and [Shopify](https://docs.btcpayserver.org/Shopify/) integrations. Or you can simply add a Bitcoin tip button to your blog like we've done for the BowTied Chukar blog (check it out at the end of the post).
+
+We'll cover the basics of setting up a BTCPay Server and adding a BTCPay Button to your site.
 
 ### BTCPay Server
 
