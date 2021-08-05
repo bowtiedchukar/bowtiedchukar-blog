@@ -9,11 +9,11 @@ We’re going to walk you through the steps to start seeing the sats stream in a
 
 ### Use the Podcasting 2.0 Wizard
 
-[Podcast Index](https://podcastindex.org/) has a [wizard](https://podcasterwallet.com/) to help you set up your podcast so your listeners can stream sats while they listen.
+[Podcast Index](https://podcastindex.org/) has a [wizard](https://podcasterwallet.com/) to help you set up your podcast to accepts sats.
 
-#### 1. Submit email address & podcast rss
+#### 1. Submit email address & podcast RSS
 
-When you visit the [wizard](https://podcasterwallet.com/), you'll see a form to submit your email address and podcast feed.
+When you visit the [wizard](https://podcasterwallet.com/), you'll see a form to submit your email address and podcast RSS feed.
 
 ![submit](./submit.png)
 
@@ -39,26 +39,28 @@ Once you have your pubkey, you can add it using the **Add a custom Node** option
 ![pubkey](./pubkey.png)
 
 
-Once you've saved your lightning node pubkey, you’re all set to start receiving sats!  You **won't** need to manually add the generated text to your RSS feed to work with the [Breez](https://breez.technology/) app.
+Once you've saved your lightning node pubkey, you’re all set to start receiving sats!  
+
+**Note:** You won't need to manually add the generated text to your RSS feed to work with the [Breez](https://breez.technology/) app.
 
 ![complete](./complete.png)
 
 #### 4. Check your Podcast is listed on Podcasting 2.0
 
-Check to make sure your Podcast was added to [Podcast Index](https://podcastindex.org/).  I'm going to use
-[Citadel Dispatch](https://citadeldispatch.com/), an interactive live show about bitcoin, distributed systems, privacy, and open source software, as an example for the rest of the post.
+Check to make sure your Podcast was added to [Podcast Index](https://podcastindex.org/).  We're going to use
+[Citadel Dispatch](https://citadeldispatch.com/), a great podcast about bitcoin, distributed systems, privacy, and open source software, as an example for the rest of the post.
 
 ![podcast-index-search](./podcast-index-search.png)
 
 #### 5. Stream sats while you listen using Breez
 
-Now download the [Breez](https://breez.technology/) app and search for your podcast in the podcast section of the app.  Your listeners will now be able to **boost** your podcast episodes which sends a lump sum amount and **stream** sats as you listen.
+Now download the [Breez](https://breez.technology/) app and search for your podcast in the podcast section of the app.  Your listeners will now be able to **boost** your podcast episodes which sends a lump sum amount and **stream** sats as they listen.
 
 
 ![breez app](./breez.jpeg#width=32px;height=32px)
 
-If you need to add sats to your Breez wallet to test it out, I recommend using [Strike.me](https://strike.me/) to send sats from your US Trash Token bank account to your wallet.  You can create an lightning invoice in Breez and paste it into Strike to transfer the Bitcoin over Lightning.
+If you need to add sats to your Breez wallet to test it out, we recommend using [Strike.me](https://strike.me/) to send sats from your US Trash Token bank account to your wallet.  You can create an lightning invoice in Breez and paste it into Strike to transfer the Bitcoin over Lightning.
 
 ### Conclusion
 
-Now your podcast has a new revenue stream of Bitcoin straight to your Lightning wallet.  Your loyal listeners can show their direct support as they stream sats while listening and boost their favorite episodes!
+Now your podcast has a new revenue stream of Bitcoin streaming straight to your Lightning wallet.  Your loyal listeners can show their support streaming sats while listening and boosting their favorite episodes!
