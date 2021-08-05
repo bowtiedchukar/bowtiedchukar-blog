@@ -63,4 +63,4 @@ If you need to add sats to your Breez wallet to test it out, we recommend using 
 
 ### Conclusion
 
-Now your podcast has a new revenue stream of Bitcoin streaming straight to your Lightning wallet.  Your loyal listeners can show their support streaming sats while listening and boosting their favorite episodes!
+Now your podcast has a new revenue stream of Bitcoin streaming straight to your Lightning wallet.  Your loyal listeners can show their support streaming sats while listening and boost their favorite episodes!
