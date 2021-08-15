@@ -21,7 +21,7 @@ const BTCPayButton = ({ pageUrl }) => {
           name="storeId"
           defaultValue="GitAbTwHtWVQodyJS11jLfoNAzfeaNsP1DJ4WF7xunLC"
         />
-        <input type="hidden" name="price" defaultValue={10} />
+        <input type="hidden" name="price" defaultValue={5} />
         <input type="hidden" name="currency" defaultValue="USD" />
         <input type="hidden" name="browserRedirect" value={pageUrl} />
         <button
@@ -38,7 +38,7 @@ const BTCPayButton = ({ pageUrl }) => {
           }}
           alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"
         >
-          <span style={{ color: "#fff" }}>Tip $10 with</span>
+          <span style={{ color: "#fff" }}>Tip $5 with</span>
           <img
             src="https://btcpay329620.lndyn.com/img/logo.svg"
             alt="BtcPay Button"
