@@ -2,6 +2,7 @@
 title: "#VISAisZero: Become Your Own Payment Processor in 30 Mins"
 date: "2021-07-29T22:12:03.284Z"
 description: "Everyone knows #BanksAreZeros, but Visa, Mastercard, and Discover are also on the way to Zero.  We're going to make this obvious by showing the Jungle how to become your own Bitcoin payment processor with 30 mins of effort."
+keywords: "BTCPay Server, bitcoin, payments, crypto"
 ---
 
 **Welcome avatar!**. Everyone knows #BanksAreZeros, but Visa, Mastercard, and Discover are also on the way to Zero.  We're going to make this obvious by showing you how to become your own Bitcoin payment processor and create a BTCPay Button for your blog with 30 mins of effort.

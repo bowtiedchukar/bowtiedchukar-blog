@@ -2,6 +2,7 @@
 title: "Let Your Podcast Audience Stream Sats While They Listen"
 date: "2021-08-04T22:12:03.284Z"
 description: "Do you have a podcast with loyal listeners?  With the Bitcoin Lightning network, your users can stream sats while they listen to show their support."
+keywords: "value4value, stream sats, podcast 2.0, podcast index"
 ---
 **Welcome anon!**  Do you have a podcast with loyal listeners?  With the Bitcoin Lightning network, your listeners can show their support by streaming sats while they listen.  [Value 4 Value Podcasts](https://podcastindex.org/podcast/value4value) are podcasts set up to receive Bitcoin payments in real-time over the Lightning network using Podcasting 2.0 apps such as [Breez](https://breez.technology/).
 
