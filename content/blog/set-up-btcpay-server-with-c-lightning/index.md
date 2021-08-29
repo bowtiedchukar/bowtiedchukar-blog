@@ -89,19 +89,19 @@ If you are new to Lightning, check out the [Bitcoiner LN channel guide](https://
 
 There are many [options for inbound liquidity](https://www.lightningnode.info/createinboundliquidity).  One thing to keep in mind is you are setting up a [Merchant](https://www.lightningnode.info/node-types/nodetype.merchant) node for your BTCPay Server.  You are not setting up a [Routing](https://www.lightningnode.info/node-types/nodetype.routing) node to generate a profit forwarding payments within the network.
 
-There are all kinds of tools and techniques for balancing a routing node.  But for our Merchant channel, it is easiest to simply buy an incoming channel from one or more well connected and capitalized nodes.
+There are all kinds of tools and techniques for balancing a Routing node.  But for our Merchant node, it is easiest to simply buy an incoming channel from one or more well connected and capitalized nodes.
 
 With [LNBig](https://lnbig.com/#/open-channel), you can buy an inbound channel with 300K sats for around $1.  You can also choose to select a larger channel size if you expect more payments immediately.
 
 ![LNBig Channel Size](./lnbig-channel-size.png)
 
-Once you select a channel size, you will be presented with a Lighitng invoice for the $1 payment to open the channel.  You need to pay the invoice with another lightning wallet (e.g. [Strike](https://strike.me/) or [Muun](https://muun.com/)).  Both of these apps allow you to pay both regular Bitcoin addresses and Lightning invoices.
+Once you select a channel size, you will be presented with a Lighitng invoice for the $1 payment to open the channel.  You need to pay the invoice with another Lightning wallet (e.g. [Strike](https://strike.me/) or [Muun](https://muun.com/)).  Both of these apps allow you to pay both regular Bitcoin addresses and Lightning invoices.
 
 ![LNBig Prepay](./lnbig-prepay.png)
 
 Once your payment is successful, you will be asked to provide your node info.
 
-We are going to use Ride The Lighting (RTL) to manage our Bitcoin and Lightning nodes.  From your BTCPay Server **Services** tab, click **RTL -> See information** to log in to RTL in your browser.
+We are going to use Ride The Lighting (RTL) to manage our Bitcoin and Lightning nodes.  From your BTCPay Server **Services** tab, click **RTL -> See information** to visit the page to log in to RTL in your browser.
 
 ![LunaNode RTL Services](./rtl-service.png)
 
@@ -117,13 +117,13 @@ After you input your node info, LNBig will verify the info is correct.
 
 ![LNBig Verify](./lnbig-verify.png)
 
-Once you click **All Right!** to confirm your node information, LNBig will provide information to connect your node to LNBig's node.
+Once you click **All Right!** to confirm your node information, LNBig will provide information to connect your node to LNBig's node as a peer.
 
 ![LNBig Connection Procedure](./lnbig-connection-procedure.png)
 
 Copy the text string from `NodeID@Host:Port`.
 
-Add the LNBig node as a peer using the `NodeID@Host:Port`back in RTL.
+Using RTL, add the LNBig node as a peer using the `NodeID@Host:Port`.
 
 ![RTL Add Peer](./rtl-add-peer.png)
 
@@ -134,9 +134,6 @@ Once you add LNBig as a peer, LNBig will open the channel with your node.
 In RTL, the channel will show in the **Pending/Inactive** tab until the transaction to create the channel is confirmed on the Bitcoin blockchain.
 
 Once the transaction is confirmed, the channel will be in the **Open** tab.  The channel should show a Local Balance of 0 sats and a Remote Balance of 300,000 sats.
-
-Click **Actions** -> **View Info** for the channel.  The channel will maintain a
-Reserve on each side for channel closing.  You can see the Reserve and the mSatoshi to Us (how many sats you can receive) and Spendable mSats (how many sats you can spend).
 
 ## 3. Enable Lightning option in BTCPay Store
 
@@ -156,7 +153,7 @@ Here is the BTCPay Server with Lightning Network selected.
 
 ![Success](./success.png)
 
-Using RLT, you can monitor you channel to see how much inbound liquidity (i.e. mSatoshi to Us) remains in the channel.
+Using RLT, you can monitor you channel to see how much inbound liquidity (i.e. mSatoshi to Us) remains in the channel.  Click **Actions** -> **View Info** for the channel.  The channel will maintain a Reserve on each side for channel closing.  You can see the Reserve and the mSatoshi to Us (how many sats you can receive) and Spendable mSats (how many sats you can spend).
 
 ![RTL Channel Info](./rtl-channel-info.png)
 
