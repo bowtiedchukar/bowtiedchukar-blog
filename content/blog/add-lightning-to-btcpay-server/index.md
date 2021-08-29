@@ -1,7 +1,7 @@
 ---
-title: "How to Add Lightning Payments to BTCPay Server"
+title: "Add Lightning Payments to BTCPay Server with LND and ThunderHub"
 date: "2021-08-23T22:12:03.284Z"
-description: "Accept Bitcoin payments over the Lightning Network using BTCPay Server"
+description: "Accept Bitcoin payments over the Lightning Network using BTCPay Server. Add LND to BTCPay Server and manage your node with ThunderHub."
 keywords: "BTCPay Server, bitcoin, lightning, payments, crypto"
 ---
 **Welcome anon!** So you've decided to eliminate third parties like Visa and [take control of your payments using BTCPay Server](https://bowtiedchukar.com/become-your-own-payment-processor/).  You're accepting Bitcoin payments straight into your cold storage wallet.  Now it's time to take advantage of instant, low fee Bitcoin payments on Lightning Network.
@@ -12,7 +12,7 @@ We showed you how to [set up your own Bitcoin payment processor in 30 minutes](h
 
 Lightning Network is a decentralized system that enables instant, low fee Bitcoin transactions.  [Here](https://lightning.network/) is a high level overview of the Lightning Network.
 
-**WARNING:**  Please understand that the Lightning Network is still in the experimental stage. Do not put the money you can't afford to lose.
+**WARNING:**  Please understand that the Lightning Network is still in the experimental stage. Do not put the money you can't afford to lose.  Also, BTCPay Server [recommends using c-lighting](https://docs.btcpayserver.org/FAQ/FAQ-LightningNetwork/#can-i-use-a-pruned-node-with-ln-in-btcpay) with a pruned node instead of LND.  It is possible in BTCPay to enable LND with a pruned node, however the LND implementation does not officially support it.  We plan to integrate Sphinx Chat with our LND node.  Sphinx Chat isn't compatible with c-lighting.  If you want to use a less riskly implementation, see [Set Up BTCPay Server with c-lightning and Add a Channel with Inbound Liquidity](/set-up-btcpay-server-with-c-lightning/).
 
 We'll cover 5 steps to set up Lightning payments on your BTCPay Server:
 
