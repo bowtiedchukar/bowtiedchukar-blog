@@ -1,14 +1,14 @@
 ---
-title: 10 Steps to Create a BowTied Animal
+title: 10 Steps to Join the BowTied Jungle
 date: "2021-07-24T22:12:03.284Z"
-description: "The BowTied Chukar is joining the jungle!  Here are the 10 steps we took to create BowTied Chukar with strong privacy and security options."
+description: "The BowTied Chukar is joining the jungle!  Here are the 10 steps we took to join the BowTied Jungle with strong privacy and security options."
 keywords: "bowtied, anon, avatar, privacy"
 ---
-**Welcome avatar!**. The BowTied Chukar is joining the jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  Here are the 10 steps we took to create BowTied Chukar with strong privacy and security options.
+**Welcome avatar!**. The BowTied Chukar is joining the BowTied Jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  Here are 10 steps to join the BowTied Jungle with strong privacy and security options.
 
 ### 1. Check Twitter availability
 
-Check to make sure your favorite BowTied animal is available on [Twitter](https://twitter.com).
+Check to make sure your favorite BowTied animal is available on [Twitter](https://twitter.com). You can also check out the [BowTied Jungle directory](https://bowtiedbaboon.com/bow-tied-directory/).
 
 ### 2. Sign up for ProtonMail
 
@@ -22,9 +22,9 @@ Sign up for a Twitter account using your ProtonMail email address.
 
 At some point, you may be asked to verify your phone number. You can use [Text Verified](https://www.textverified.com) to get a one time use phone number for SMS verification if don't want to provide your real mobile phone number.
 
-Another option is to create a [MySudo](https://mysudo.com/) VOIP number to use with your BowtTied pseudonym.
+Another option is to create a [MySudo](https://mysudo.com/) VOIP number to use with your BowtTied Jungle pseudonym.
 
-Set up two-factor authentication (2FA) with Authy, Twitter instructions [here](https://help.twitter.com/en/managing-your-account/two-factor-authentication).
+Set up two-factor authentication (2FA) with Authy, Twitter instructions [here](https://help.twitter.com/en/managing-your-account/two-factor-authentication).  I've found once you set up 2FA, Twitter will not ask for you to provide a phone number again.
 
 ### 4. Create BowTied avatar
 
@@ -32,7 +32,7 @@ We used [PIXL R](https://pixlr.com/x/), a free online photo editor, to put a bow
 
 ### 5. Buy your BowTied domain
 
-Go to [Namecheap](https://namecheap.com) and buy `yourbowtiedanimal.com`.  It's a good idea to buy your domain now even if you are going to use [Substack](https://substack.com/) or another hosted service where you don't need your own domain.
+Go to [Namecheap](https://namecheap.com) and buy `yourbowtiedanimal.com`.  It's a good idea to buy your domain now even if you are going to use [Substack](https://substack.com/) or another hosted service where you don't need your own domain.  As the BowTied Jungle gets bigger you don't want someone to buy it before you do.
 
 Namecheap is not going to verify your name, address, and phone number so it is up to you to decide the accuracy of that information.  Use your MySudo VOIP number if you have one.
 
@@ -40,7 +40,7 @@ You can purchase your domain with Bitcoin.  We like using [Strike](https://strik
 
 Set up two-factor authentication (2FA) with Authy, Namecheap instructions [here](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication/).
 
-*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   For a more simple solution, use [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/). If you choose these options, you can skip down to writing your first blog post in step 10.]*
+*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   For a more simple solution, use [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/). **BowTied Opossum has an excellent [WordPress guide](https://bowtiedopossum.com/the-basics-of-your-first-website/) if you go with that option.**  If you choose these options, you can skip down to writing your first blog post in step 10.]*
 
 ### 6. Create BowTied Github account
 
@@ -128,4 +128,4 @@ You want to update the following files with your information:
 
 The BowTied Chukar blog is on [GitHub](https://github.com/bowtiedchukar/bowtiedchukar-blog) if you want to see the code for this site.
 
-Congratulations, you've created your own BowTied animal!  Now you're all set to join the Jungle!  #WAGMI
+Congratulations, you've created your own BowTied animal!  Now you're all set to join the BowTied Jungle!  Check out [@DeGenJungle](https://twitter.com/DeGenJungle) to join the Discord. #WAGMI
