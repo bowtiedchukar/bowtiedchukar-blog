@@ -13,7 +13,7 @@ const BTCPayButton = ({ pageUrl }) => {
     <div className={containerStyles}>
       <form
         method="POST"
-        action="https://btcpay329620.lndyn.com/api/v1/invoices"
+        action="https://btcpayserver.bowtiedchukar.com/api/v1/invoices"
         className="btcpay-form btcpay-form--block"
       >
         <input
