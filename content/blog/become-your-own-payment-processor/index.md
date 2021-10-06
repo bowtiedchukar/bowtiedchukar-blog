@@ -53,7 +53,7 @@ While there are [multiple deployment options](https://docs.btcpayserver.org/Depl
 
 #### 1. Create the account and add credits
 
-Create an account on [LunaNode](https://www.lunanode.com/?r=17252) *(This is an affiliate link.  We'll both receive $20 credits if you register from the link.  Thanks to [@bowtiedopossum](https://twitter.com/bowtiedopossum) for teaching me about affiliate links)*.
+Create an account on [LunaNode](https://www.lunanode.com/?r=17252) *(This is an affiliate link.  We'll both receive $20 credits if you register from the link.  Thanks to [@bowtiedopossum](https://twitter.com/bowtiedopossum) for teaching me about [affiliate links](https://bowtiedopossum.substack.com/p/affiliate-marketing-part-1))*.
 
 If you enter your credit card, you shouldn't need any additional credits.  You can also pay with Bitcoin.  If you pay with Bitcoin, you won't get the $20 credits, so you'll need to add at least $10 in credit.
 
