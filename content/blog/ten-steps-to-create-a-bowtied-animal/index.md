@@ -4,7 +4,7 @@ date: "2021-07-24T22:12:03.284Z"
 description: "The BowTied Chukar is joining the jungle!  Here are the 10 steps we took to join the BowTied Jungle with strong privacy and security options."
 keywords: "bowtied, anon, avatar, privacy"
 ---
-**Welcome avatar!**. The BowTied Chukar is joining the BowTied Jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  Here are 10 steps to join the BowTied Jungle with strong privacy and security options.
+**Welcome avatar!**. The BowTied Chukar is joining the BowTied Jungle.  We're going to be writing about web development, Bitcoin, privacy, and our journey learning how to sell online.  Here are 10 steps to join the BowTied Jungle with strong privacy and security options.  If you are new to the Jungle, check out [BowTiedBull's FAQ](https://bowtiedbull.substack.com/p/bowtiedbull-faq-will-be-updated-over?utm_source=bowtiedchukar.com&utm_medium=referral&utm_campaign=steps_to_create_a_bowtied_animal) for an introduction to the BowTied Community.
 
 ### 1. Check Twitter availability
 
@@ -30,6 +30,8 @@ Set up two-factor authentication (2FA) with Authy, Twitter instructions [here](h
 
 We used [PIXL R](https://pixlr.com/x/), a free online photo editor, to put a bow tie on our chukar.  Add your avatar to your Twitter account.
 
+If you want to up your game with a more professional avatar.  You can pay a Jungle member to create one for you...[@bowtiedfarmer](https://twitter.com/bowtiedfarmer) upgraded mine and has created many others for members of the Jungle.  He even jollified mine for Christmas. 
+
 ### 5. Buy your BowTied domain
 
 Go to [Namecheap](https://namecheap.com) and buy `yourbowtiedanimal.com`.  It's a good idea to buy your domain now even if you are going to use [Substack](https://substack.com/) or another hosted service where you don't need your own domain.  As the BowTied Jungle gets bigger you don't want someone to buy it before you do.
@@ -40,7 +42,7 @@ You can purchase your domain with Bitcoin.  We like using [Strike](https://strik
 
 Set up two-factor authentication (2FA) with Authy, Namecheap instructions [here](https://www.namecheap.com/support/knowledgebase/article.aspx/10073/45/how-can-i-use-the-totp-method-for-twofactor-authentication/).
 
-*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   For a more simple solution, use [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/). **BowTied Opossum has an excellent [WordPress guide](https://bowtiedopossum.com/the-basics-of-your-first-website/) if you go with that option.**  If you choose these options, you can skip down to writing your first blog post in step 10.]*
+*[Steps 6-10 will guide you through creating your blog using the static site generator [Gatsby](https://www.gatsbyjs.com/) and deploying on [Netlify](https://www.netlify.com).   For a more simple solution, use [Substack](https://substack.com/) or [Wordpress](https://wordpress.com/create-blog/). **BowTied Opossum has an excellent [WordPress guide](https://bowtiedopossum.com/the-basics-of-your-first-website/) if you go with that option.**  If you choose these options, you can skip down to the [conclusion](#conclusion) and writing your first blog post.]*
 
 ### 6. Create BowTied Github account
 
@@ -128,4 +130,6 @@ You want to update the following files with your information:
 
 The BowTied Chukar blog is on [GitHub](https://github.com/bowtiedchukar/bowtiedchukar-blog) if you want to see the code for this site.
 
-Congratulations, you've created your own BowTied animal!  Now you're all set to join the BowTied Jungle!  Check out [@DeGenJungle](https://twitter.com/DeGenJungle) to join the Discord. #WAGMI
+### Conclusion
+
+Congratulations, you've created your own BowTied animal!  Now you're all set to start publishing your blog posts and join the BowTied Jungle!  Check out [@DeGenJungle](https://twitter.com/DeGenJungle) to join the Discord. #WAGMI
