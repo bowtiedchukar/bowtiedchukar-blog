@@ -8,7 +8,7 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import BTCPayButton from "../components/BTCPayButton"
+// import BTCPayButton from "../components/BTCPayButton"
 import { useLocation } from "@reach/router"
 
 const Bio = () => {
@@ -34,7 +34,7 @@ const Bio = () => {
   const social = data.site.siteMetadata?.social
   const siteUrl = data.site.siteMetadata.siteUrl
   const { pathname } = useLocation()
-  const pageUrl = siteUrl + pathname
+//  const pageUrl = siteUrl + pathname
 
   return (
     <div className="bio">
@@ -59,7 +59,7 @@ const Bio = () => {
             {` `}
             and consider leaving <strong>{author.name}</strong> a tip:
           </p>
-          <BTCPayButton pageUrl={pageUrl} />
+//          <BTCPayButton pageUrl={pageUrl} />
         </div>
       )}
     </div>
